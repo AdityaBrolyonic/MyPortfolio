@@ -1,0 +1,39 @@
+.navbar {
+  position: sticky;   /* or use fixed */
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1f1f1f;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* optional: adds depth */
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  cursor: default;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #61dafb;
+}
